@@ -1,0 +1,5 @@
+[PLESK_17_PHP73]
+name=PHP 7.3
+baseurl=http://autoinstall.plesk.com/PHP73_17/dist-rpm-CentOS-7-x86_64/
+enabled=1
+gpgcheck=0
