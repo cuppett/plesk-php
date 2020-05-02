@@ -25,7 +25,6 @@ RUN set -ex; \
 RUN set -ex; \
        \
        export PATH=/opt/plesk/php/7.4/bin:$PATH; \
-       php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"; \
        wget -O /bin/phpunit https://phar.phpunit.de/phpunit-9.1.4.phar; \
        chmod +x /bin/phpunit; \
        phpunit --version;
