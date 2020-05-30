@@ -11,6 +11,7 @@ RUN set -ex; \
         plesk-php74 plesk-php74-xml plesk-php74-pdo plesk-php74-cli \
         plesk-php74-json plesk-php74-soap plesk-php74-intl plesk-php74-gd plesk-php74-mbstring \
         rsync tar gettext unzip wget openssh-clients; \
+        yum -y install git awscli; \
 	yum clean all;
 
 # install composer
