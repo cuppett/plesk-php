@@ -1,6 +1,6 @@
 FROM centos:7
 
-MAINTAINER Stephen Cuppett steve@cuppett.com
+LABEL maintainer="Stephen Cuppett <steve@cuppett.com>"
 
 COPY plesk.repo /etc/yum.repos.d/plesk.repo
 
