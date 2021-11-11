@@ -3,3 +3,9 @@ name=PHP 7.4
 baseurl=http://autoinstall.plesk.com/PHP74_17/dist-rpm-CentOS-7-x86_64/
 enabled=1
 gpgcheck=0
+
+[PLESK_17_PHP80]
+name=PHP 8.0
+baseurl=http://autoinstall.plesk.com/PHP80_17/dist-rpm-CentOS-7-x86_64/
+enabled=1
+gpgcheck=0
