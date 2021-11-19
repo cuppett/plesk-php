@@ -1,4 +1,4 @@
-FROM centos:7
+FROM registry.access.redhat.com/ubi7
 
 LABEL maintainer="Stephen Cuppett <steve@cuppett.com>"
 
