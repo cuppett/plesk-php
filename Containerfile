@@ -3,6 +3,7 @@ FROM centos:7
 LABEL maintainer="Stephen Cuppett <steve@cuppett.com>"
 
 COPY plesk.repo /etc/yum.repos.d/plesk.repo
+COPY epel.repo /etc/yum.repos.d/epel.repo
 
 # install the support we need
 RUN set -ex; \
