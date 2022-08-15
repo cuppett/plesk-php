@@ -26,7 +26,7 @@ RUN set -ex; \
 RUN set -ex; \
        \
        export PATH=/opt/plesk/php/8.1/bin:$PATH; \
-       wget -O /bin/phpunit https://phar.phpunit.de/phpunit-9.5.13.phar; \
+       wget -O /bin/phpunit https://phar.phpunit.de/phpunit-9.5.21.phar; \
        chmod +x /bin/phpunit; \
        phpunit --version;
 
