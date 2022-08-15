@@ -11,7 +11,7 @@ RUN set -ex; \
         yum -y update; \
         yum -y install \
         plesk-php81 plesk-php81-xml plesk-php81-pdo plesk-php81-cli plesk-php81-soap plesk-php81-intl plesk-php81-gd plesk-php81-mbstring \
-        rsync tar gettext unzip wget openssh-clients git awscli; \
+        rsync gettext unzip wget openssh-clients git awscli; \
         yum clean all;
 
 # install composer
