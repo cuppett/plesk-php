@@ -1,4 +1,4 @@
-FROM centos:7
+FROM quay.io/centos/centos:7
 
 LABEL maintainer="Stephen Cuppett <steve@cuppett.com>"
 
