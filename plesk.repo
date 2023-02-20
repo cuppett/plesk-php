@@ -9,3 +9,9 @@ name=PHP 8.1
 baseurl=http://autoinstall.plesk.com/PHP81_17/dist-rpm-CentOS-7-x86_64/
 enabled=1
 gpgcheck=0
+
+[PLESK_17_PHP82]
+name=PHP 8.2
+baseurl=http://autoinstall.plesk.com/PHP82_17/dist-rpm-CentOS-7-x86_64/
+enabled=1
+gpgcheck=0
