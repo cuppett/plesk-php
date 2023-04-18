@@ -10,7 +10,9 @@ RUN set -ex; \
         \
         yum -y update; \
         yum -y install \
+        plesk-php80 plesk-php80-xml plesk-php80-pdo plesk-php80-cli plesk-php80-soap plesk-php80-intl plesk-php80-gd plesk-php80-mbstring \
         plesk-php81 plesk-php81-xml plesk-php81-pdo plesk-php81-cli plesk-php81-soap plesk-php81-intl plesk-php81-gd plesk-php81-mbstring \
+        plesk-php82 plesk-php82-xml plesk-php82-pdo plesk-php82-cli plesk-php82-soap plesk-php82-intl plesk-php82-gd plesk-php82-mbstring \
         rsync gettext unzip wget openssh-clients git awscli; \
         yum clean all;
 
